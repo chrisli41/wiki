@@ -17,7 +17,7 @@ $(document).ready(function(){
             $("#page-wrapper").animate({top: '-=200px'}, 2000);
             shift = 0;
         }
-        
+
         $.getJSON(apiCall, function(list){
 
             $('#entries').html('');
